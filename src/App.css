@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+#suroimg {
+  width: 400px;
+  height: 400px;
+}
+#crimereporterimg {
+  width: 400px;
+  height: 400px;
+}
+.about {
+  border: black 5px;
+}
+#myself {
+  height: 275px;
+  width: 200px;
+}
