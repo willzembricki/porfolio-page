@@ -6,7 +6,11 @@ function ContactInfo() {
       <h1>Contact Info</h1>
       <h3>Email: wzembricki@gmail.com</h3>
       <h3>Mobile Phone: (732) 535-2812</h3>
-      <a href="https://www.linkedin.com/in/william-zembricki/">
+      <a
+        href="https://www.linkedin.com/in/william-zembricki/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img
           src={linkedin}
           alt="linkedin icon"
