@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(201, 201, 201);
+  font-family: "Courier New", Courier, monospace;
 }
 
 .App-logo {
@@ -37,17 +39,51 @@
   }
 }
 #suroimg {
-  width: 400px;
-  height: 400px;
+  width: 75%;
+  height: 80%;
 }
 #crimereporterimg {
-  width: 400px;
-  height: 400px;
+  width: 75%;
+  height: 80%;
 }
 .about {
-  border: black 5px;
+  border: 5px solid black;
 }
 #myself {
   height: 275px;
   width: 200px;
+  flex-wrap: wrap;
+  justify-content: left;
+  display: inline-block;
+}
+.card {
+  width: 45%;
+  height: 350px;
+  display: inline-block;
+  margin: auto 20px;
+  border: 4px solid #282c34;
+  color: aliceblue;
+}
+.sites {
+  font-size: 34px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+.projecttitle {
+  color: aliceblue;
+}
+#suroinfo {
+  margin-top: 70px;
+  color: rgb(53, 2, 53);
+}
+#linkcards {
+  height: auto;
+}
+#summary {
+  justify-content: right;
+  display: inline-block;
+}
+#crimereporterinfo {
+  margin-top: 10px;
+  color: rgb(87, 14, 87);
 }
